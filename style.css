@@ -1,0 +1,45 @@
+.scrollbar{
+    border:solid rgb(233, 199, 180);
+    background-color:rgb(233, 199, 180);
+    height:42px;
+    padding-top:22px;
+    display:flex;
+    justify-content: space-around;
+    color:black;
+}
+.arrow{
+    /* border:solid purple; */
+    height:20px;
+}
+.navbar{
+    /* border:solid black; */
+    margin-top:18px;
+    height:22px;
+    display:flex;
+    justify-content: space-between;
+}
+.icon,.logo,.login{
+    /* border:solid black; */
+    width:25%;
+    border-width:.2px;
+}
+.optionsContainer{
+    display:flex;
+    justify-content: space-around;
+}
+.options{
+
+​
+}
+
+@font-face {
+    font-family: Palanquin;
+    font-style: normal;
+    font-weight: 100;
+    src: local(""),url(../assets/fonts/palanquin-v11-latin-100.woff2) format("woff2")
+}
+hr {
+    border-top-width: 1px;
+    color: inherit;
+    height: 0
+}
